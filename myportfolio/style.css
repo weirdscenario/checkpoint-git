@@ -1,0 +1,19 @@
+.header-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: red;
+}
+
+.aside {
+  position: absolute;
+  left: 0;
+  top: 50px;
+  bottom: 50px;
+  width: 200px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
