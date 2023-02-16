@@ -1,0 +1,186 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header{
+  width: 100%;
+  padding: 30px 300px;
+  display: flex;
+  justify-content: space-between;
+  
+  
+
+}
+
+header .logo{
+  color: green;
+  font-weight: 700;
+  text-decoration: none;
+  font-size: 2em;
+}
+header ul{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: larger;
+}
+header ul li {
+  list-style: none;
+  margin-left: 20px;
+}
+header ul li a { 
+  text-decoration: none;
+  padding: 6px 15px;
+  color: lightgray; 
+  
+}
+header ul li a:hover,
+header ul li .active 
+{
+  background: white;
+  color: green;
+}
+.section:before {
+  content: "";
+  display: table;
+}
+.section{
+  display: flex; 
+   justify-content: center;
+   flex-direction: column;
+
+  
+}
+
+.section__inner{
+  display: flex;
+  justify-content: center;
+  flex-direction:column;
+}
+.lead__logo{
+  margin: 0 auto;
+  width: 40px;
+  height: 40px;
+}
+.section__inner h1{
+  margin: 34px 0;
+  text-align: center;
+}
+.p1{
+  float: left;
+  width: 50%;
+}
+.section__content{
+  margin: 0 200px;
+ 
+}
+.edges {
+  
+  padding: 32px 32px 0;
+  
+  
+}
+.services__elements{
+  display: flex;
+  padding: 50px 200px;
+  
+
+}
+.for__patients{
+  background-color: green;
+
+}
+.for__doctors{
+  background-color:lightblue;
+}
+.for__clinics{
+  background-color: grey;
+}
+.for__patients,.for__doctors{
+  margin: 0 50px 0 0;
+}
+.brand__section__inner{
+  /* border: 1px red solid; */
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 200px ;
+  justify-content: flex-start;
+}
+/* .left__content{
+  border: 1px red solid; */
+  
+.brand__logos{
+  list-style-type: none;
+}
+.right__content{
+  margin: 0 0px 0 230px;
+  /* border: black 1px solid; */
+  padding: 0 150px 0 0 ;
+
+}
+.brand__logos , li{
+align-items: center;
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+
+
+
+}
+.brand__logos li {
+    font-size: 1rem;
+    display: inline-block;
+    margin-top: 0;
+    padding: 5px 0 5px 5px;
+    width: 25%;
+    font-size: 25px;
+    display: flex;
+  
+}
+.platform__description{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 110px;
+}
+.platform__content{
+  margin-right: 85px;
+}
+.left__platform__content, p{
+ width: 50%;
+  margin-top: 20px;
+
+}
+.right__platform__content{
+ 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;  
+}
+.border1,p{
+  text-align: center;
+  margin: 20px;
+  
+}
+/* .top__right__box{ 
+  margin: 20px; */
+  
+
+.left__platform__content{
+
+  width: 50%;
+}
+.border1 p{
+  margin-left: 80px;
+}
+.left__platform__contentm{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  
+}
+.left__platform__content h2{
+  padding-left: -100px;
+
+}
