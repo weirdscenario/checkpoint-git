@@ -1,0 +1,20 @@
+ALGORITHM checkpoint
+VAR
+  L_counter := INTEGER 
+  W_counter := INTEGER 
+  V_counter := INTEGER
+  input_sentence = Read(input_sentence)
+BEGIN
+REPEAT
+  set_instructions
+
+  IF (input_sentence == " ") THEN
+    W_counter += 1 
+
+  END_IF
+IF (V_counter= { a , u , e , y , i , o }) THEN
+  V_counter += 1 
+END_IF 
+UNTIL ()
+  
+END
